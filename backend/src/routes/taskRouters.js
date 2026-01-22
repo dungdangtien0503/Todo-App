@@ -1,6 +1,6 @@
 import express from "express";
 import {
-    getAllTask,
+    getAllTasks,
     createTask,
     updateTask,
     deleteTask,
@@ -9,7 +9,7 @@ import {
 const router = express.Router();
 
 // tạo api
-router.get("/", getAllTask);
+router.get("/", getAllTasks);
 
 router.post("/", createTask);
 
